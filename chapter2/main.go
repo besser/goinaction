@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/besser/goinaction/chapter2/matcher"
+	_ "github.com/besser/goinaction/chapter2/matchers"
 	"github.com/besser/goinaction/chapter2/search"
 )
 
