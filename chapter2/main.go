@@ -18,6 +18,9 @@ func init() {
 }
 
 func main() {
+	// Get the first command-line agument 
+	arg : os.Args[0]
+	
 	// Perform the search for the specified term
-	search.Run("president")
+	search.Run(arg)
 }
